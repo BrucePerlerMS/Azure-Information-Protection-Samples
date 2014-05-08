@@ -25,5 +25,4 @@ To Run the sample:
 ==================  
      1. Open a command prompt.
      2. Navigate to the directory containing IpcDlp.exe.   
-     3. Create Application Manifest per AD RMS SDK documentation guidance.
-     4. Type IpcDlp.exe at the command line.
+     3. Type IpcDlp.exe at the command line.
