@@ -40,7 +40,7 @@ namespace DataModel.Models
 
         private static readonly TableRequestOptions tableReqOptions = new TableRequestOptions()
         {
-            MaximumExecutionTime = TimeSpan.FromSeconds(1.5),
+            MaximumExecutionTime = TimeSpan.FromSeconds(10),
             RetryPolicy = new LinearRetry(TimeSpan.FromSeconds(3), 3)
         };
         
