@@ -3,11 +3,11 @@ rms-samples-for-net
 
 RMS Samples for .NET for rights-enabling your applications and services.
 
-For more information about how Microsoft Rights Management services go to [here](http://www.microsoft.com/rms).
+For more information about Microsoft Rights Management services go to [here](http://www.microsoft.com/rms).
 
 ## How To Run These Samples
 
-To run this sample you will need:
+To run these samples you will need:
 - Visual Studio 2012 or above
 - [AD RMS SDK 2.1](http://www.microsoft.com/en-us/download/details.aspx?id=38397)
 
