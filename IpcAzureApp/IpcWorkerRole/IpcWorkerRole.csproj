@@ -84,13 +84,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\IpcManagedAPI\IpcManagedAPI.csproj">
+      <Project>{f62216ab-28d4-4033-932c-e5a94e38c3b3}</Project>
+      <Name>IpcManagedAPI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataModel\DataModel.csproj">
       <Project>{da9ecdc4-0901-436d-9d07-c4b23974aa46}</Project>
       <Name>DataModel</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\IpcManagedAPI\IpcManagedAPI.csproj">
-      <Project>{f62216ab-28d4-4033-932c-e5a94e38c3b3}</Project>
-      <Name>IpcManagedAPI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

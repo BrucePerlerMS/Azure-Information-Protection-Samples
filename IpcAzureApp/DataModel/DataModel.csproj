@@ -53,12 +53,6 @@
     <Compile Include="Models\ServicePrincipalModel.cs" />
     <Compile Include="StorageFactory.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\IpcManagedAPI\IpcManagedAPI.csproj">
-      <Project>{f62216ab-28d4-4033-932c-e5a94e38c3b3}</Project>
-      <Name>IpcManagedAPI</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -114,7 +114,7 @@ namespace IpcWorkerRole.RMS
             TemplateIssuer templateIssuer = issuer.First<TemplateIssuer>();
 
             return SafeNativeMethods.IpcGetTemplateList(templateIssuer.ConnectionInfo,
-                GetTemplateListFlags.DefaultServerOnly,
+                false,
                 true,
                 false,
                 true,
@@ -134,7 +134,7 @@ namespace IpcWorkerRole.RMS
 
             //bootstrap incase current machine was not bootstrapped
             SafeNativeMethods.IpcGetTemplateList(null,
-                0,
+                false,
                 true,
                 false,
                 true,
